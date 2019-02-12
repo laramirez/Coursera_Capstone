@@ -1,5 +1,7 @@
 # Coursera_Capstone
 
+## 1/ Toronto Neighborhood Clustering
+
 This assignment required to explore and cluster neighborhoods in Toronto.
 
 The list of Toronto postcodes, boroughs and neighborhoods was scrapped on the Toronto Wikipedia page using Beautiful Soup.
