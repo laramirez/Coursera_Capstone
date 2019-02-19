@@ -11,9 +11,11 @@ Finally, you will be required to use the Folium library to great maps of geospat
 This assignment required to explore and cluster neighborhoods in Toronto.
 
 The list of Toronto postcodes, boroughs and neighborhoods was scrapped on the Toronto Wikipedia page using Beautiful Soup.
+
 https://en.wikipedia.org/wiki/List_of_postal_codes_of_Canada:_M
 
 The list of coordinates for each postcode was supplied by the program.
+
 http://cocl.us/Geospatial_data
 
 This information was combined to create a base Folium visualization of the different neighborhoods:
@@ -30,6 +32,18 @@ Categories were then manually regrouped into bigger groups, which were used as d
 
 "Now that you have been equipped with the skills and the tools to use location data to explore a geographical location, you will have the opportunity to be as creative as you want and come up with an idea to leverage the Foursquare location data to explore or compare neighborhoods or cities of your choice or to come up with a problem that you can use the Foursquare location data to solve."
 
-Using the Foursquare Places API, the Google Geocoding API and the official Paris database, I chose to make up the following problem:
+I chose to make up the following problem:
 
 The Paris Mayor has received a budget for 10 new Vélib' stations to place in the city in 2019. His aim is to reduce areas that are commercially dense but don’t have a nearby station. He has asked for a recommendation of areas to target.
+
+Using the Google Geocoding API and the official Paris database, I created a visualization of the current Vélib' stations in Paris:
+
+![Screenshot](toronto_post_codes_clustered.png)
+
+Using the Foursquare Places API, I added a heatmap layer of commercial venue concentration:
+
+![Screenshot](toronto_post_codes_clustered.png)
+
+This allowed to find the zones which were commercially dense but not sufficially covered by stations:
+
+![Screenshot](toronto_post_codes_clustered.png)
