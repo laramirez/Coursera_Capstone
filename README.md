@@ -20,13 +20,13 @@ http://cocl.us/Geospatial_data
 
 This information was combined to create a base Folium visualization of the different neighborhoods:
 
-![Screenshot](toronto_post_codes.png)
+![Screenshot](Toronto/toronto_neighborhoods.png)
 
 The Foursquare API was then used to gather the 100 surrounding venues for each postal code, along with venue categories.
 
 Categories were then manually regrouped into bigger groups, which were used as discriminants to cluster neighborhoods together:
 
-![Screenshot](toronto_post_codes_clustered.png)
+![Screenshot](Toronto/toronto_clusters.png)
 
 ## 2/ Open Project
 
