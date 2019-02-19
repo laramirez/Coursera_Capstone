@@ -25,3 +25,11 @@ The Foursquare API was then used to gather the 100 surrounding venues for each p
 Categories were then manually regrouped into bigger groups, which were used as discriminants to cluster neighborhoods together:
 
 ![Screenshot](toronto_post_codes_clustered.png)
+
+## 2/ Open Project
+
+"Now that you have been equipped with the skills and the tools to use location data to explore a geographical location, you will have the opportunity to be as creative as you want and come up with an idea to leverage the Foursquare location data to explore or compare neighborhoods or cities of your choice or to come up with a problem that you can use the Foursquare location data to solve."
+
+Using the Foursquare Places API, the Google Geocoding API and the official Paris database, I chose to make up the following problem:
+
+The Paris Mayor has received a budget for 10 new Vélib' stations to place in the city in 2019. His aim is to reduce areas that are commercially dense but don’t have a nearby station. He has asked for a recommendation of areas to target.
