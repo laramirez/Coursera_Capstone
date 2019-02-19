@@ -38,12 +38,12 @@ The Paris Mayor has received a budget for 10 new Vélib' stations to place in th
 
 Using the Google Geocoding API and the official Paris database, I created a visualization of the current Vélib' stations in Paris:
 
-![Screenshot](toronto_post_codes_clustered.png)
+![Screenshot](Open_Project/paris_velib_stations.png)
 
 Using the Foursquare Places API, I added a heatmap layer of commercial venue concentration:
 
-![Screenshot](toronto_post_codes_clustered.png)
+![Screenshot](Open_Project/paris_venue_concentration.png)
 
 This allowed to find the zones which were commercially dense but not sufficially covered by stations:
 
-![Screenshot](toronto_post_codes_clustered.png)
+![Screenshot](Open_Project/paris_recommendation.png)
